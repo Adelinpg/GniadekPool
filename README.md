@@ -9,4 +9,4 @@ using namespace std;
  
 int a,b,c,d;
 int wynik;
-char tn;
+char xd tn;
