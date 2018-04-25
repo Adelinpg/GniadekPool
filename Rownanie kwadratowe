@@ -18,7 +18,7 @@ main ()
 {
      
 int a,b,c,d;
-cout<<"Rownanie kwadratowe:\n a*x*x+b*x+c=0 \n";
+cout<<"Rownanie kwadrxdatowe:\n a*x*x+b*x+c=0 \n";
 cout<<"Podaj a: ";
 cin>>a;
 cout<<"Podaj b: ";
