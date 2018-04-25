@@ -1,0 +1,36 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fstream>
+#include <string>
+ 
+using namespace std;
+ 
+int a,b,c,d;
+int wynik;
+char tn;
+ 
+float zestaw(int suma);
+ 
+int main()
+{
+    for(;;)
+    {
+        cout<<"Witaj w kreatorze cen zestawow firmy LEGO!"<<endl<<endl;
+        cout<<"----------------->>MENU<<-----------------"<<endl;
+        cout<<"1. Stworz wlasny zestaw."<<endl;
+        cout<<"2. Wczytaj zapisany projekt."<<endl;
+        cout<<"3. Ponoc."<<endl;
+        cout<<"4. Wyjscie."<<endl;
+        cout<<"=========================================="<<endl;
+        cout<<"Wybierz opcjê: ";
+        cin>>a;
+ 
+        switch(a)
+        {
+        case 1:
+        {
+            string napis;
+            cout<<"Podaj nazwe zestawu: ";
+            cin.ignore();
+            getline (cin,napis);
