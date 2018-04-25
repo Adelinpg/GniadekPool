@@ -1,11 +1,11 @@
 
-#include <iostream.h>
+#include <costam>
 #include <stdio.h>
 
 
-float y,x;
+float n,x;
 
-float fib(float n)
+float xd(float n)
 
 {
     if (n==0)
