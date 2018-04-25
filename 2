@@ -1,0 +1,28 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    float a=0, b=0;
+
+    cout<<"Podaj ile liczb chcesz wprowadzic:";
+    cin>>x;
+
+    for(int i=1; i<=x ; i++)
+    {
+    
+        cout<<"Podaj liczbe:";
+        cin>>a;
+
+        b += a;
+    
+    }
+
+    cout<<"Wynik to:"<<b;
+    getch();
+
+    return 0;
+}
