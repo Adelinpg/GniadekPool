@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-float n,x;
+float y,x;
 
 float fib(float n)
 
